@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    function initFreshChat() {
+        window.fcWidget.init({
+        token: "710ab6d6-3181-458e-95ef-ffd8f422b243",
+        host: "https://wchat.freshchat.com"
+    });
+    }
+    function initialize(i,t){
+        var e;
+        i.getElementById(t) ? initFreshChat() :
+        ((e=i.createElement("script")).id=t,
+        e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",
+        e.onload=initFreshChat,i.head.appendChild(e))
+    }
+    function initiateCall() {
+        initialize(document,"freshchat-js-sdk")
+    }
+    window.addEventListener ?
+    window.addEventListener("load",initiateCall,!1):
+    window.attachEvent("load",initiateCall,!1);
+</script>
+<head>
+    <meta charset="UTF-8">
+     <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EduAthínas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icono.png">
+    <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo">
+</head>
+<body>
+    <div class="content-fluid">
+        <!--=====================================
+        CABEZOTE   
+        ======================================-->
+
+        <header class="row">
+           
+            <figure id="logotipo" class="col-lg-4 col-md-2 col-sm-1 col-xs-0">
+                <img src="img/logotipo.png" alt="Logo">
+            </figure>
+             <div class="col-lg-1 col-md-3 col-sm-3 col-xs-12">
+                <br>
+            </div>
+            <nav class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
+                
+                <ul>
+                    <div class="topnav">
+                        <a href="index.html">Inicio</a>
+                        <a href="aprende.html">Aprende</a>
+                        <a class="active" href="recursos.html">Recursos</a>
+                        <a href="atencion.html">Obtener Atención</a>
+                        <input type="text" placeholder="Search..">
+                      </div>
+                </ul>
+    
+            </nav>
+            
+        </header>
+        <div id="slide13" class="row">
+            <center><img src="img/Component 13.png"></center>
+        </div>
+        <!--=====================================
+        GALERIA
+        ======================================-->
+        <div id="slide14" class="row">
+            <center><a href="youtube_video_gallery-master/index.html"><img src="img/Component 14.png"></a></center>
+        </div>
+        
+        <div id="textovideo" class="row">
+            <center>
+                <p>Galería de videos educacionales, en donde podrás encontrar</p>
+                <p>respuestas a tus dudas en canales certificados</p>
+                <br>
+                <a href="youtube_video_gallery-master/index.html">
+                    <center><img src="img/play.PNG"></center>
+                </a>
+            </center>
+        </div>
+
+        <div id="slide17" class="row">
+            <center><img src="img/Component 17.png"></center>
+        </div>
+        <div id="slide18" class="row">
+            <center><img src="img/Component 18.png"></center>
+        </div>
+        <div id="slide19" class="row">
+            <center><img src="img/Component 19.png"></center>
+        </div>
+        <div id="jugar" class ="row">
+            <center><a href="https://www.cerebriti.com/juegos-de-ciencias/test-eduathinas">A jugar</a></center>
+        </div>
+        <div id="jugar2" class ="row">
+            <center><a href="https://buscapalabras.com.ar/sopa-de-letras-de-enfermedades-de-trasmisi%C3%B3n-sexual_5.html">A jugar</a></center>
+        </div>
+        <div id="pdf" class ="row">
+            <center><a href="pdf/SaludJoven_Guia_Anticonceptivos.pdf">PDF</a></center>
+        </div>
+        <div id="pdf2" class ="row">
+            <center><a href="pdf/F03.pdf">PDF</a></center>
+        </div>
+        <div id="textopdf"class="col-lg-4 col-md-7 col-sm-8 col-xs-12">  
+            <center><h1>Guía de métodos anticonceptivos</h1>          
+            <p>Autor: Dirección General de Salud Pública
+            </p></center>
+            
+        </div>
+        <div id="textopdf2"class="col-lg-4 col-md-7 col-sm-8 col-xs-12">     
+            <center><h1>Conozcamos más de las enfermedades de trasmisión sexual</h1>      
+            <p>Autor: Ministerio de Salud de Chile
+            </p>   </center>
+        </div>
+    </div>
+</body>
