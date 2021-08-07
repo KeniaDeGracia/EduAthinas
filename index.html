@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!--<script src="//code-eu1.jivosite.com/widget/YVJWc1rfpZ" async></script>-->
 <head>
     <meta charset="UTF-8">
      <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
@@ -8,12 +9,13 @@
 
     <title>EduAthínas</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="codigo-base-tutorial-popup-animado-master/estilos.css">
     <link rel="icon" href="img/icono.png">
     <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo">
 </head>
 <body>
-    <div class="content-fluid">
+    <div class="contenedor">
         <!--=====================================
         CABEZOTE   
         ======================================-->
@@ -21,7 +23,7 @@
         <header class="row">
            
             <figure id="logotipo" class="col-lg-4 col-md-2 col-sm-1 col-xs-12">
-                <img src="img/logotipo.png" alt="Logo">
+                <a href="index.html"><img src="img/logotipo.png" alt="Logo"></a>
             </figure>
             <div class="col-lg-1 col-md-3 col-sm-3 col-xs-12">
                 <br>
@@ -45,14 +47,40 @@
             SECCION 1
         ======================================-->
         <div id="slide" class="row">
-            <center><img src="img/Component 1.svg"></center>>
+            <img src="img/Component 1.svg" width="100%">
         </div>
-        <div id="vermas" class ="row">Ver Más</div>
-        <div id="textoinicio"class="col-lg-4 col-md-7 col-sm-8 col-xs-12">            
+
+         <div id="textoinicio"class="col-lg-4 col-md-7 col-sm-8 col-xs-12">            
             <p>EduAthínas es un lugar seguro para aprender sobre educación sexual, todos tenemos derecho a informarnos y decidir sobre nuestros cuerpos.</p>
         </div> 
- 
-    </div>
+        <!--=====================================
+            VENTANA EMERGENTE
+        ======================================-->
+        <article>
+			<button id="btn-abrir-popup" class="btn-abrir-popup">Ver Más</button>
+		</article>
 
+		<div class="overlay" id="overlay">
+			<div class="popup" id="popup">
+				<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+				<h3>EduAthínas</h3>
+				<h6>				
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum, tortor ut commodo elementum, felis dui pharetra arcu, id vulputate neque orci ut velit. Vestibulum facilisis mauris sapien, ut rutrum lacus sollicitudin eu. Curabitur odio ligula, eleifend sodales nisl et, feugiat mattis sapien. Nulla commodo gravida est a lacinia. Fusce cursus eleifend dui at tincidunt. 
+                </h6>
+                <h6>				
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum, tortor ut commodo elementum, felis dui pharetra arcu, id vulputate neque orci ut velit. Vestibulum facilisis mauris sapien, ut rutrum lacus sollicitudin eu. Curabitur odio ligula, eleifend sodales nisl et, feugiat mattis sapien. Nulla commodo gravida est a lacinia. Fusce cursus eleifend dui at tincidunt. 
+                </h6>
+                <h6>				
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum, tortor ut commodo elementum, felis dui pharetra arcu, id vulputate neque orci ut velit. Vestibulum facilisis mauris sapien, ut rutrum lacus sollicitudin eu. Curabitur odio ligula, eleifend sodales nisl et, feugiat mattis sapien. Nulla commodo gravida est a lacinia. Fusce cursus eleifend dui at tincidunt. 
+                </h6>
+				<form action="">
+					<input type="submit" class="btn-submit" value="Cerrar">
+				</form>
+			</div>
+		</div>
+		</div>
+        
+    </div>
+    <script src="codigo-base-tutorial-popup-animado-master/popup.js"></script>
 </body>
 </html>

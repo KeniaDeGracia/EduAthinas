@@ -1,45 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-     <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <!--<script src="//code-eu1.jivosite.com/widget/YVJWc1rfpZ" async></script>-->
+    <head>
+        <meta charset="UTF-8">
+        <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>EduAthínas</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/icono.png">
-    <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo">
-</head>
-<body>
-    <div class="content-fluid">
-        <!--=====================================
-        CABEZOTE   
-        ======================================-->
+        <title>EduAthínas</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/icono.png">
+        <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo">
+    </head>
+    <body>
+        <div class="contenedor">
+            <!--=====================================
+            CABEZOTE   
+            ======================================-->
 
-        <header class="row">
-           
-            <figure id="logotipo" class="col-lg-4 col-md-2 col-sm-1 col-xs-0">
-                <img src="img/logotipo.png" alt="Logo">
-            </figure>
-             <div class="col-lg-1 col-md-3 col-sm-3 col-xs-12">
-                <br>
-            </div>
-            <nav class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
-                
-                <ul>
-                    <div class="topnav">
-                        <a href="index.html">Inicio</a>
-                        <a href="aprende.html">Aprende</a>
-                        <a href="recursos.html">Recursos</a>
-                        <a class="active" href="atencion.html">Obtener Atención</a>
-                        <input type="text" placeholder="Search..">
-                      </div>
-                </ul>
-    
-            </nav>
+            <header class="row">
             
-        </header>
-    </div>
-</body>
+                <figure id="logotipo" class="col-lg-4 col-md-2 col-sm-1 col-xs-12">
+                    <a href="index.html"><img src="img/logotipo.png" alt="Logo"></a>
+                </figure>
+                <div class="col-lg-1 col-md-3 col-sm-3 col-xs-12">
+                    <br>
+                </div>
+                <nav class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
+                    
+                    <ul>
+                        <div class="topnav">
+                            <a href="index.html">Inicio</a>
+                            <a href="aprende.html">Aprende</a>
+                            <a href="recursos.html">Recursos</a>
+                            <a class="active" href="atencion.html">Obtener Atención</a>
+                            <input type="text" placeholder="Search..">
+                        </div>
+                    </ul>
+        
+                </nav>
+                
+            </header>
+            <div id="slide20" class="row">
+                <center><img src="img/Component 20.png"></center>
+            </div>
+            <div id="formulario" class="row">
+                <form method="post" action="formulario.php" onsubmit="return mf.validarFormulario()">
+
+                    <label for="nombre">Nombre: <span class="obligatorio">*Campo Obligatorio</span></label>
+                    <input id="nombre" class="validar" type="text" placeholder="Escriba su nombre con mínimo 2 caracteres" required>
+
+                    <label for="email">Email: <span class="obligatorio">*Campo Obligatorio</span></label>
+                    <input id="email" class="validar" type="email" placeholder="Escriba su correo correctamente" required>
+                    
+                    <label for="mensaje">Mensaje:<span class="obligatorio">*Campo Obligatorio</span></label>
+                    <textarea id="mensaje" rows="20" required></textarea>
+
+                    <label id="labelEnviar"></label>
+                    <input type="submit" value="Enviar">
+
+                </form>
+                
+            </div>
+            <div id="slide21" class="row">
+                <center><img src="img/Component 21.png"></center>
+            </div>
+
+            
+            <div="redes"class="row">
+                <center><a id="f"href="https://www.facebook.com/EduAthinas"><img src="img/f.png"></a></center>
+                <center><a id="i"href="https://www.instagram.com/eduathinas/?hl=es"><img src="img/i.png"></a></center>
+                <center><a id="w"href="https://www.facebook.com/EduAthinas"><img src="img/w.png"></a></center>
+
+            </div>
+        
+
+            <div id="correo" class="row"><center> eduathinas@gmail.com</center></div>
+            <div id="blanco" class="row">
+                <center><img src="img/blanco.png"></center>
+            </div>
+        </div>
+        <script src="js/formulario.js"></script>
+    </body>

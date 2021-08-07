@@ -10,12 +10,6 @@ GLOBAL
 	/*font-family: sans-serif;*/
 	box-sizing: border-box;
 }
-.contenedor{
-	position:relative;
-	margin:auto;
-	width:100%;
-	height: auto;
-}
 .row{
 	position:relative;
 	margin:auto;
@@ -36,7 +30,7 @@ CABEZOTE
 
 header #logotipo{
 	text-align: center;
-	padding:1px;
+	padding:15px;
 }
 body {
 	font-family: "Boogaloo", sans-serif;
@@ -105,42 +99,40 @@ BARRA DEL NAVEGADOR
 	  border: 1px solid #ccc;
 	}
   }
-/*=============================================
-SECCION 1
+
+  /*=============================================
+IMAGENES
 =============================================*/
 #slide{
 	position: absolute;
-  	top: 0%;
+  	top: -10%;
 	left: 0%;
 	z-index: -3;
-
 }
 #slide2{
 	position: absolute;
   	top: 18%;
-	right:100px;
-  	width: 100%;
+	right: 0%;
 	z-index: -3;
-
 }
 #slide3{
 	position: absolute;
-  	top: 700px;
-	left: 22px;
+  	top: 118%;
+	right:0%;
   	width: 100%;
 	z-index: -2;
 }
 #slide4{
 	position: absolute;
 	width: 100%;
-  	top: 18%;
+  	top: 10%;
 	left: 0px;
 	right: 40px;
 }
 #slide5{
 	position: absolute;
-  	top: 795px;
-  	left:0px;
+  	top: 120%;
+  	left:-0.5%;
   	
 }
 #slide6{
@@ -208,89 +200,133 @@ SECCION 1
   	top: 3400px;
   	right:2px;
 }
+#slide20{
+	position: absolute;
+  	top: 18%;
+	left:-10px;
+	z-index: 0;
+}
+#slide21{
+	position: absolute;
+  	top: 1500px;
+	left:-10px;
+	z-index: 0;
+}
+#w{
+	position: absolute;
+  	top: 2260px;
+	left: 300px;
+	z-index: 2;
+}
+#f{
+	position: absolute;
+	top: 2260px;
+	left:550px;
+	z-index: 0;
+}
+#i{
+	position: absolute;
+	top: 2260px;
+	left:850px;
+	z-index: 0;
+}
+#correo{
+	position: absolute;
+	top: 2500px;
+	z-index: 1;
+	font-size: 50px;
+}
+#blanco{
+	top: 1500px;
+	z-index: 0;
+}
+
 /*=============================================
 Ver mas
 =============================================*/
-#vermas{
-	position:absolute;
-	bottom:10px;
-	padding: 5px;
-	width:150px;
-	height: 50px;
-	background:#D17EF6;
-	border-radius:10px;
-	left: 180px;
-	text-align: center;
-	line-height: 40px;
-	font-size: 25px;
-	color:black;
-	cursor:pointer;
-	border: 3px solid rgb(214, 214, 214);
-	font-weight: bold;
-}
 #vermas2{
 	position:absolute;
-	top:1350px;
-	z-index: -1;
+	top:215%;
+	left: 19%;
+
 	padding: 5px;
-	width:150px;
-	height: 50px;
+
+	width:11%;
+	height: 9%;
+
 	background:#FFAF36;
 	border-radius:10px;
-	left: 255px;
 	text-align: center;
-	line-height: 40px;
-	font-size: 25px;
-	color:black;
+	line-height: 50px;
+	font-size: 30px;
+	color:#000;
 	cursor:pointer;
-	border: 3px solid rgb(0, 0, 0);
+	border: none;
 	font-weight: bold;
+	font-family: 'Boogaloo', sans-serif;
 }
 #vermas3{
 	position:absolute;
-	top:1350px;
+	top:215%;
+	left: 70.5%;
+
 	padding: 5px;
-	width:150px;
-	height: 50px;
+
+	width:11%;
+	height: 9%;
+
 	background:#FF7A00;
 	border-radius:10px;
-	left: 930px;
 	text-align: center;
-	line-height: 40px;
-	font-size: 25px;
+	line-height: 50px;
+	font-size: 30px;
 	color:black;
 	cursor:pointer;
-	border: 3px solid rgb(0, 0, 0);
+	border: 3px;
 	font-weight: bold;
 }
 #textoinicio{
 	position:absolute;
-	top:410px;
-	left:80px;
+	top:46%;
+	left:5%;
 	font-size: 35px;
 	font-family: "Boogaloo", sans-serif;
 	color: black;
 }
 #textoaprende{
 	position:absolute;
-	width:100%;
-	top:1000px;
-	left:160px;
+	width:25%;
+	top:165%;
+	left:12%;
+	font-size: 30px;
+	font-family: "Boogaloo", sans-serif;
+}
+#textoaprende2{
+	position:absolute;
+	width:25%;
+	top:165%;
+	left:63%;
 	font-size: 30px;
 	font-family: "Boogaloo", sans-serif;
 }
 #textometodos{
 	position:absolute;
-	top:860px;
-	left:200px;
+	top:129%;
+	left:20%;
+
+	width:65%;
 	font-size: 30px;
 	font-family: "Boogaloo", sans-serif;
 	color: white;
+	font-weight:  lighter;
 }
 #textometodos2{
 	position:absolute;
-	top:1100px;
-	left:200px;
+	top:180%;
+	left:0%;
+	width:90%
+
+
 	font-size: 30px;
 	font-family: "Boogaloo", sans-serif;
 	color: black;
@@ -437,8 +473,31 @@ Ver mas
 
 }
 /*=============================================
-GALERIA
+FORMULARIO
 =============================================*/
+
+
+#formulario form{
+	position:relative;
+	margin:auto;
+	left: 340px;
+	top:180px;
+	width:40%;
+	height:auto;
+	padding:2%;
+	background:#ddd;
+}
+#formulario input, #formulario label, #formulario textarea{
+	display:block;
+	position:relative;
+	width:100%;
+	padding:10px;
+	font-size: 20px;
+}
+#formulario label span.obligatorio{
+	opacity: 0;
+	color:#777;
+}
 
 
 /*=============================================
