@@ -137,15 +137,15 @@ IMAGENES
 }
 #slide6{
 	position: absolute;
-  	top: 1700px;
-	left: 10px;;
+  	top: 270%;
+	width: 90%;
+	left:5%;
 }
 #slide7{
 	position: absolute;
 	width: 100%;
-  	top: 2600px;
-	left:0px;
-	bottom:0;
+  	top: 420%;
+	left:0%;
 }
 #slide8{
 	position: absolute;
@@ -155,21 +155,22 @@ IMAGENES
 }
 #slide9{
 	position: absolute;
-  	top: 800px;
+  	top: 125%;
+	left:0%;
 }
 #slide10{
 	position: absolute;
-  	top: 1360px;
-	left: 0px
+  	top: 205%;
+	left: 0%;
 }
 #slide11{
 	position: absolute;
-	top: 2050px;
+	top: 335%;
   	width: 100%;
 }
 #slide12{
 	position: absolute;
-  	top: 2650px;
+  	top: 415%;
 	left: 19px;
 }
 #slide13{
@@ -180,24 +181,23 @@ IMAGENES
 }
 #slide14{
 	position: absolute;
-  	top: 800px;
-	z-index: -3;
+  	top: 120%;
+	z-index: 1;
 }
 #slide17{
 	position: absolute;
-  	top: 1780px;
-	right:5px;
+  	top: 270%;
   	width: 100%;
 	z-index: -3;
 }
 #slide18{
 	position: absolute;
-  	top: 2700px;
+  	top: 410%;
 	right:2px;
 }
 #slide19{
 	position: absolute;
-  	top: 3400px;
+  	top: 490%;
   	right:2px;
 }
 #slide20{
@@ -285,6 +285,112 @@ Ver mas
 	border: 3px;
 	font-weight: bold;
 }
+#vermas4{
+	position:absolute;
+	top: 330%;
+	left: 13.5%;
+	padding: 5px;
+	width:11%;
+	height: 9%;
+	background:white;
+	border-radius:10px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	color:black;
+	cursor:pointer;
+	border: 2px solid black;
+	font-weight: bold;
+}
+#vermas5{
+	position:absolute;
+	top: 330%;
+	left: 44.5%;
+	padding: 5px;
+	width:11%;
+	height: 9%;
+	background:white;
+	border-radius:10px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	color:black;
+	cursor:pointer;
+	border: 2px solid black;
+	font-weight: bold;
+}
+#vermas6{
+	position:absolute;
+	top: 330%;
+	left: 75%;
+	padding: 5px;
+	width:11%;
+	height: 9%;
+	background:white;
+	border-radius:10px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	color:black;
+	cursor:pointer;
+	border: 2px solid black;
+	font-weight: bold;
+}
+#vermas7{
+	position:absolute;
+	top: 400.5%;
+	left: 13.5%;
+	padding: 5px;
+	width:11%;
+	height: 9%;
+	background:white;
+	border-radius:10px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	color:black;
+	cursor:pointer;
+	border: 2px solid black;
+	font-weight: bold;
+}
+#vermas8{
+	position:absolute;
+	top: 400.5%;
+	left: 44.8%;
+	padding: 5px;
+	width:11%;
+	height: 9%;
+	background:white;
+	border-radius:10px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	color:black;
+	cursor:pointer;
+	border: 2px solid black;
+	font-weight: bold;
+}
+#vermas9{
+	position:absolute;
+	top: 400.5%;
+	left: 76%;
+	padding: 5px;
+	width:11%;
+	height: 9%;
+	background:white;
+	border-radius:10px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	color:black;
+	cursor:pointer;
+	border: 2px solid black;
+	font-weight: bold;
+}
+
+/*=============================================
+TEXTO
+=============================================*/
 #textoinicio{
 	position:absolute;
 	top:46%;
@@ -322,10 +428,9 @@ Ver mas
 }
 #textometodos2{
 	position:absolute;
-	top:180%;
-	left:0%;
-	width:90%
-
+	top:175%;
+	width:90%;
+	left:5%;
 
 	font-size: 30px;
 	font-family: "Boogaloo", sans-serif;
@@ -334,8 +439,9 @@ Ver mas
 }
 #textoenfermedades{
 	position:absolute;
-	top:980px;
-	left:150px;
+	top:165%;
+	width:80%;
+	left:11%;
 	font-size: 30px;
 	font-family: "Boogaloo", sans-serif;
 	color: black;
@@ -343,9 +449,9 @@ Ver mas
 }
 #textoets{
 	position:absolute;
-	top:2660px;
-	left:445px;
-	width: 900px;
+	top:415%;
+	left:30%;
+	width: 63%;
 	font-size: 24px;
 	font-family: "Boogaloo", sans-serif;
 	color: white;
@@ -353,9 +459,9 @@ Ver mas
 }
 #textoets2{
 	position:absolute;
-	top:3000px;
-	left:325px;
-	width: 900px;
+	top:468%;
+	left:21.5%;
+	width: 63%;
 
 	font-size: 24px;
 	font-family: "Boogaloo", sans-serif;
@@ -364,9 +470,9 @@ Ver mas
 }
 #textoets3{
 	position:absolute;
-	top:3400px;
-	left:445px;
-	width: 900px;
+	top:529%;
+	left:30%;
+	width: 63%;
 	font-size: 24px;
 	font-family: "Boogaloo", sans-serif;
 	color: white;
@@ -374,9 +480,9 @@ Ver mas
 }
 #textoets4{
 	position:absolute;
-	top:3685px;
-	left:325px;
-	width: 900px;
+	top:572.5%;
+	left:21.5%;
+	width: 65%;
 	font-size: 24px;
 	font-family: "Boogaloo", sans-serif;
 	color: white;
@@ -384,8 +490,8 @@ Ver mas
 }
 #textovideo{
 	position:absolute;
-	width:100%;
-	top:990px;
+
+	top:150%;
 	font-size: 30px;
 	font-family: "Boogaloo", sans-serif;
 }
