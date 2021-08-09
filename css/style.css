@@ -214,30 +214,30 @@ IMAGENES
 }
 #w{
 	position: absolute;
-  	top: 2260px;
+  	top: 1360px;
 	left: 300px;
-	z-index: 2;
+	z-index: 5;
 }
 #f{
 	position: absolute;
-	top: 2260px;
+	top: 1360px;
 	left:550px;
-	z-index: 0;
+	z-index: 5;
 }
 #i{
 	position: absolute;
-	top: 2260px;
+	top: 1360px;
 	left:850px;
-	z-index: 0;
+	z-index: 5;
 }
 #correo{
 	position: absolute;
-	top: 2500px;
+	top: 2600px;
 	z-index: 1;
 	font-size: 50px;
 }
 #blanco{
-	top: 1500px;
+	top: 1600px;
 	z-index: 0;
 }
 
@@ -533,7 +533,7 @@ TEXTO
 	width: 240px;
 	height:60px;
 	top:3050px;
-	left: 21%;
+	left: 25%;
 	line-height: 60px;
 	background:#9bd6f6;
 	text-decoration: none;
@@ -549,7 +549,7 @@ TEXTO
 	width: 240px;
 	height:60px;
 	top:3050px;
-	left: 55%;
+	left: 57%;
 	line-height: 60px;
 	background:#9bd6f6;
 	text-decoration: none;
@@ -562,17 +562,18 @@ TEXTO
 }
 #textopdf{
 	position:absolute;
-	top:2980px;
-	left:180px;
+	top:457%;
+	left:19%;
+	width:30%;
 	font-size: 20px;
 	font-family: "Boogaloo", sans-serif;
 	color: white;
 }
 #textopdf2{
 	position:absolute;
-	top:2980px;
-	left:630px;
-	right: 100px;
+	top:453%;
+	left:53%;
+	width:25%;
 	font-size: 20px;
 	font-family: "Boogaloo", sans-serif;
 	color: white;
