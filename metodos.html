@@ -1,93 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
     <!--<script src="//code-eu1.jivosite.com/widget/YVJWc1rfpZ" async></script>-->
-<head>
-    <meta charset="UTF-8">
-     <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <script>
+        function initFreshChat() {
+        window.fcWidget.init({
+        token: "710ab6d6-3181-458e-95ef-ffd8f422b243",
+        host: "https://wchat.freshchat.com"
+        });
+        }
+        function initialize(i,t){
+        var e;
+        i.getElementById(t) ? initFreshChat() :
+        ((e=i.createElement("script")).id=t,
+        e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",
+        e.onload=initFreshChat,i.head.appendChild(e))
+        }
+        function initiateCall() {
+        initialize(document,"freshchat-js-sdk")
+        }
+        window.addEventListener ?
+        window.addEventListener("load",initiateCall,!1):
+        window.attachEvent("load",initiateCall,!1);
+        </script>
+    <head>
+        <meta charset="UTF-8">
+        <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>EduAthínas</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/icono.png">
-    <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo">
-    <link rel="stylesheet" href="codigo-base-tutorial-popup-animado-master/estilos4.css">
-    <link rel="stylesheet" href="codigo-base-tutorial-popup-animado-master/estilos5.css">
-    <link rel="stylesheet" href="codigo-base-tutorial-popup-animado-master/estilos6.css">
-    <link rel="stylesheet" href="codigo-base-tutorial-popup-animado-master/estilos7.css">
-    <link rel="stylesheet" href="codigo-base-tutorial-popup-animado-master/estilos8.css">
-    <link rel="stylesheet" href="codigo-base-tutorial-popup-animado-master/estilos9.css">
+        <title>EduAthínas</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/icono.png">
+        <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo">
+        <link rel="stylesheet" href="codigo-base-tutorial-popup-animado-master/estilos4.css">
+        <link rel="stylesheet" href="codigo-base-tutorial-popup-animado-master/estilos5.css">
+        <link rel="stylesheet" href="codigo-base-tutorial-popup-animado-master/estilos6.css">
+        <link rel="stylesheet" href="codigo-base-tutorial-popup-animado-master/estilos7.css">
+        <link rel="stylesheet" href="codigo-base-tutorial-popup-animado-master/estilos8.css">
+        <link rel="stylesheet" href="codigo-base-tutorial-popup-animado-master/estilos9.css">
 
-</head>
-<body>
-    <div class="contenedor">
-        <!--=====================================
-        CABEZOTE   
-        ======================================-->
+    </head>
+    <body>
+        <div class="contenedor">
+            <!--=====================================
+            CABEZOTE   
+            ======================================-->
 
-        <header class="row">
-           
-            <figure id="logotipo" class="col-lg-4 col-md-2 col-sm-1 col-xs-12">
-                <a href="index.html"><img src="img/logotipo.png" alt="Logo"></a>
-            </figure>
-             <div class="col-lg-1 col-md-3 col-sm-3 col-xs-12">
-                <br>
-            </div>
-            <nav class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
-                
-                <ul>
-                    <div class="topnav">
-                        <a href="index.html" >Inicio</a>
-                        <a class="active" href="aprende.html">Aprende</a>
-                        <a href="recursos.html">Recursos</a>
-                        <a href="atencion.html">Obtener Atención</a>
-                        <input type="text" placeholder="Search..">
-                      </div>
-                </ul>
-    
-            </nav>
+            <header class="row">
             
-        </header>
-        <!--=====================================
-            SECCION 1
-        ======================================-->
-        <div id="slide4" class="row">
-            <img src="img/Component 4.png " width="100%">
-        </div>
-        <div id="slide5" class="row">
-            <img src="img/Component 5.png" width="100%">
-        </div>
-        <div id="slide6" class="row">
-            <img src="img/Component 6.png"width="100%">
-        </div>
-        <div id="slide7" class="row">
-            <img src="img/Component 7.png" width="100%">
-        </div>
-
-        <div id="vermas4">
-            <a href="metodos.html">Ver Más</a>
-        </div>
-        <!--=====================================
+                <figure id="logotipo" class="col-lg-4 col-md-2 col-sm-1 col-xs-12">
+                    <a href="index.html"><img src="img/logotipo.png" alt="Logo"></a>
+                </figure>
+                <div class="col-lg-1 col-md-3 col-sm-3 col-xs-12">
+                    <br>
+                </div>
+                <nav class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
+                    
+                    <ul>
+                        <div class="topnav">
+                            <a href="index.html" >Inicio</a>
+                            <a class="active" href="aprende.html">Aprende</a>
+                            <a href="recursos.html">Recursos</a>
+                            <a href="atencion.html">Obtener Atención</a>
+                            <input type="text" placeholder="Search..">
+                        </div>
+                    </ul>
         
-        ======================================-->
-        <div id="textometodos"class="row">
-            <center>
-                <p>El preservativo o condón no solo previene los embarazos no deseados, también las ETS. Prácticar un sexo más seguro es protegerse ya sea con preservativos masculinos, femeninos, bucales y guantes de latex. </p>
-            </center>
-        </div>
-        <div id="textometodos2"class="row">
-            <center>
-                <h1>¿Qué son los métodos anticonceptivos?</h1>
-                <br>
-                <p>Los métodos anticonceptivos son medicamentos o dispositivos utilizados para ejercer el derecho de vivir y disfrutar la sexualidad de forma segura y responsable, debido a que su función es prevenir embarazos no planificados o deseados y algunos como el preservativo previenen las ETS.</p>
-                <br><br><br><br>
-                <h1>Métodos Anticonceptivos para prevenir</h1>
-                <br>
-                <h1>El embarazo precoz </h1>
-            </center> 
-        </div> 
-    </div>
-    <script src="codigo-base-tutorial-popup-animado-master/popup.js"></script>
+                </nav>
+                
+            </header>
+            <!--=====================================
+                SECCION 1
+            ======================================-->
+            <div id="slide4" class="row">
+                <img src="img/Component 4.png " width="100%">
+            </div>
+            <div id="slide5" class="row">
+                <img src="img/Component 5.png" width="100%">
+            </div>
+            <div id="slide6" class="row">
+                <img src="img/Component 6.png"width="100%">
+            </div>
+            <div id="slide7" class="row">
+                <img src="img/Component 7.png" width="100%">
+            </div>
 
-</body>
+            <div id="vermas4">
+                <a href="excel/precios.xlsx">Ver Más</a>
+            </div>
+            <!--=====================================
+            
+            ======================================-->
+            <div id="textometodos"class="row">
+                <center>
+                    <p>El preservativo o condón no solo previene los embarazos no deseados, también las ETS. Prácticar un sexo más seguro es protegerse ya sea con preservativos masculinos, femeninos, bucales y guantes de latex. </p>
+                </center>
+            </div>
+            <div id="textometodos2"class="row">
+                <center>
+                    <h1>¿Qué son los métodos anticonceptivos?</h1>
+                    <br>
+                    <p>Los métodos anticonceptivos son medicamentos o dispositivos utilizados para ejercer el derecho de vivir y disfrutar la sexualidad de forma segura y responsable, debido a que su función es prevenir embarazos no planificados o deseados y algunos como el preservativo previenen las ETS.</p>
+                    <br><br><br><br>
+                    <h1>Métodos Anticonceptivos para prevenir</h1>
+                    <br>
+                    <h1>El embarazo precoz </h1>
+                </center> 
+            </div> 
+        </div>
+        <script src="codigo-base-tutorial-popup-animado-master/popup.js"></script>
+
+    </body>
+</html>

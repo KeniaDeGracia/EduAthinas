@@ -1,86 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
     <!--<script src="//code-eu1.jivosite.com/widget/YVJWc1rfpZ" async></script>-->
-<head>
-    <meta charset="UTF-8">
-     <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <script>
+        function initFreshChat() {
+        window.fcWidget.init({
+        token: "710ab6d6-3181-458e-95ef-ffd8f422b243",
+        host: "https://wchat.freshchat.com"
+        });
+        }
+        function initialize(i,t){
+        var e;
+        i.getElementById(t) ? initFreshChat() :
+        ((e=i.createElement("script")).id=t,
+        e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",
+        e.onload=initFreshChat,i.head.appendChild(e))
+        }
+        function initiateCall() {
+        initialize(document,"freshchat-js-sdk")
+        }
+        window.addEventListener ?
+        window.addEventListener("load",initiateCall,!1):
+        window.attachEvent("load",initiateCall,!1);
+        </script>
+    <head>
+        <meta charset="UTF-8">
+        <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>EduAthínas</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="codigo-base-tutorial-popup-animado-master/estilos.css">
-    <link rel="icon" href="img/icono.png">
-    <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo">
-</head>
-<body>
-    <div class="contenedor">
-        <!--=====================================
-        CABEZOTE   
-        ======================================-->
+        <title>EduAthínas</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="codigo-base-tutorial-popup-animado-master/estilos.css">
+        <link rel="icon" href="img/icono.png">
+        <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo">
+    </head>
+    <body>
+        <div class="contenedor">
+            <!--=====================================
+            CABEZOTE   
+            ======================================-->
 
-        <header class="row">
-           
-            <figure id="logotipo" class="col-lg-4 col-md-2 col-sm-1 col-xs-12">
-                <a href="index.html"><img src="img/logotipo.png" alt="Logo"></a>
-            </figure>
-            <div class="col-lg-1 col-md-3 col-sm-3 col-xs-12">
-                <br>
-            </div>
-            <nav class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
-                
-                <ul>
-                    <div class="topnav">
-                        <a class="active" href="index.html">Inicio</a>
-                        <a href="aprende.html">Aprende</a>
-                        <a href="recursos.html">Recursos</a>
-                        <a href="atencion.html">Obtener Atención</a>
-                        <input type="text" placeholder="Search..">
-                    </div>
-                </ul>
-    
-            </nav>
+            <header class="row">
             
-        </header>
-        <!--=====================================
-            SECCION 1
-        ======================================-->
-        <div id="slide" class="row">
-            <img src="img/Component 1.svg" width="100%">
-        </div>
-
-         <div id="textoinicio"class="col-lg-4 col-md-7 col-sm-8 col-xs-12">            
-            <p>EduAthínas es un lugar seguro para aprender sobre educación sexual, todos tenemos derecho a informarnos y decidir sobre nuestros cuerpos.</p>
-        </div> 
-        <!--=====================================
-            VENTANA EMERGENTE
-        ======================================-->
-        <article>
-			<button id="btn-abrir-popup" class="btn-abrir-popup">Ver Más</button>
-		</article>
-
-		<div class="overlay" id="overlay">
-			<div class="popup" id="popup">
-				<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-				<h3>EduAthínas</h3>
-				<h6>				
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum, tortor ut commodo elementum, felis dui pharetra arcu, id vulputate neque orci ut velit. Vestibulum facilisis mauris sapien, ut rutrum lacus sollicitudin eu. Curabitur odio ligula, eleifend sodales nisl et, feugiat mattis sapien. Nulla commodo gravida est a lacinia. Fusce cursus eleifend dui at tincidunt. 
-                </h6>
-                <h6>				
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum, tortor ut commodo elementum, felis dui pharetra arcu, id vulputate neque orci ut velit. Vestibulum facilisis mauris sapien, ut rutrum lacus sollicitudin eu. Curabitur odio ligula, eleifend sodales nisl et, feugiat mattis sapien. Nulla commodo gravida est a lacinia. Fusce cursus eleifend dui at tincidunt. 
-                </h6>
-                <h6>				
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum, tortor ut commodo elementum, felis dui pharetra arcu, id vulputate neque orci ut velit. Vestibulum facilisis mauris sapien, ut rutrum lacus sollicitudin eu. Curabitur odio ligula, eleifend sodales nisl et, feugiat mattis sapien. Nulla commodo gravida est a lacinia. Fusce cursus eleifend dui at tincidunt. 
-                </h6>
-				<form action="">
-					<input type="submit" class="btn-submit" value="Cerrar">
-				</form>
-			</div>
-		</div>
-	
+                <figure id="logotipo" class="col-lg-4 col-md-2 col-sm-1 col-xs-12">
+                    <a href="index.html"><img src="img/logotipo.png" alt="Logo"></a>
+                </figure>
+                <div class="col-lg-1 col-md-3 col-sm-3 col-xs-12">
+                    <br>
+                </div>
+                <nav class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
+                    
+                    <ul>
+                        <div class="topnav">
+                            <a class="active" href="index.html">Inicio</a>
+                            <a href="aprende.html">Aprende</a>
+                            <a href="recursos.html">Recursos</a>
+                            <a href="atencion.html">Obtener Atención</a>
+                            <input type="text" placeholder="Search..">
+                        </div>
+                    </ul>
         
-    </div>
-    <script src="codigo-base-tutorial-popup-animado-master/popup.js"></script>
-</body>
+                </nav>
+                
+            </header>
+            <!--=====================================
+                SECCION 1
+            ======================================-->
+            <div id="slide" class="row">
+                <img src="img/Component 1.svg" width="100%">
+            </div>
+
+            <div id="textoinicio"class="col-lg-4 col-md-7 col-sm-8 col-xs-12">            
+                <p>EduAthínas es un lugar seguro para aprender sobre educación sexual, todos tenemos derecho a informarnos y decidir sobre nuestros cuerpos.</p>
+            </div> 
+            <!--=====================================
+                VENTANA EMERGENTE
+            ======================================-->
+            <article>
+                <button id="btn-abrir-popup" class="btn-abrir-popup">Ver Más</button>
+            </article>
+
+            <div class="overlay" id="overlay">
+                <div class="popup" id="popup">
+                    <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                    <h3>EduAthínas</h3>
+                    <h6>				
+                        EduAthínas nació con la finalidad de ser un sitio donde los jóvenes puedan adquirir información sobre ETS y métodos anticonceptivos para mejorar sus bases con respecto al conocimiento de esta área y hacer valer su derecho de acceso a este tipo de información o educación.                     </h6>
+                    <h6>				
+                        Misión
+                        <br>                         				
+                        Brindar información correcta a los jóvenes sobre educación sexual para ayudarlos a alcanzar su máximo potencial como adultos consiente del mundo.  
+                    </h6>
+                    <h6>				
+                        Visión   
+                        <br>                     
+                        Ser la plataforma digital donde los jóvenes decidan informarse sobre educación sexual.
+                    </h6>
+                    <form action="">
+                        <input type="submit" class="btn-submit" value="Cerrar">
+                    </form>
+                </div>
+            </div>
+        
+            
+        </div>
+        <script src="codigo-base-tutorial-popup-animado-master/popup.js"></script>
+    </body>
 </html>

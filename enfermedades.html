@@ -1,92 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
     <!--<script src="//code-eu1.jivosite.com/widget/YVJWc1rfpZ" async></script>-->
-<head>
-    <meta charset="UTF-8">
-     <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <script>
+        function initFreshChat() {
+        window.fcWidget.init({
+        token: "710ab6d6-3181-458e-95ef-ffd8f422b243",
+        host: "https://wchat.freshchat.com"
+        });
+        }
+        function initialize(i,t){
+        var e;
+        i.getElementById(t) ? initFreshChat() :
+        ((e=i.createElement("script")).id=t,
+        e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",
+        e.onload=initFreshChat,i.head.appendChild(e))
+        }
+        function initiateCall() {
+        initialize(document,"freshchat-js-sdk")
+        }
+        window.addEventListener ?
+        window.addEventListener("load",initiateCall,!1):
+        window.attachEvent("load",initiateCall,!1);
+        </script>
+    <head>
+        <meta charset="UTF-8">
+        <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>EduAthínas</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/icono.png">
-    <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo">
-</head>
-<body>
-    <div class="contenedor">
-        <!--=====================================
-        CABEZOTE   
-        ======================================-->
+        <title>EduAthínas</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/icono.png">
+        <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo">
+    </head>
+    <body>
+        <div class="contenedor">
+            <!--=====================================
+            CABEZOTE   
+            ======================================-->
 
-        <header class="row">
-           
-            <figure id="logotipo" class="col-lg-4 col-md-2 col-sm-1 col-xs-12">
-                <a href="index.html"><img src="img/logotipo.png" alt="Logo"></a>
-            </figure>
-             <div class="col-lg-1 col-md-3 col-sm-3 col-xs-12">
-                <br>
-            </div>
-            <nav class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
+            <header class="row">
+            
+                <figure id="logotipo" class="col-lg-4 col-md-2 col-sm-1 col-xs-12">
+                    <a href="index.html"><img src="img/logotipo.png" alt="Logo"></a>
+                </figure>
+                <div class="col-lg-1 col-md-3 col-sm-3 col-xs-12">
+                    <br>
+                </div>
+                <nav class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
+                    
+                    <ul>
+                        <div class="topnav">
+                            <a href="index.html">Inicio</a>
+                            <a class="active" href="aprende.html">Aprende</a>
+                            <a href="recursos.html">Recursos</a>
+                            <a href="atencion.html">Obtener Atención</a>
+                            <input type="text" placeholder="Search..">
+                        </div>
+                    </ul>
+        
+                </nav>
                 
-                <ul>
-                    <div class="topnav">
-                        <a href="index.html">Inicio</a>
-                        <a class="active" href="aprende.html">Aprende</a>
-                        <a href="recursos.html">Recursos</a>
-                        <a href="atencion.html">Obtener Atención</a>
-                        <input type="text" placeholder="Search..">
-                      </div>
-                </ul>
+            </header>
+            <!--=====================================
+                SECCION 1
+            ======================================-->
+            <div id="slide8" class="row">
+                <img src="img/Component 8.png" width="100%">
+
+            </div>
+            <div id="slide9" class="row">
     
-            </nav>
-            
-        </header>
-        <!--=====================================
-            SECCION 1
-        ======================================-->
-        <div id="slide8" class="row">
-            <img src="img/Component 8.png" width="100%">
+                <img src="img/Component 9.png" width="100%">
 
-        </div>
-        <div id="slide9" class="row">
- 
-            <img src="img/Component 9.png" width="100%">
+            </div>
+            <div id="textoenfermedades"class="row">
+                <center>
+                    <h1>¿Qué son las enfermedades de trasmisión sexual?</h1>
+                    <br>
+                    <p>Las enfermedades de Trasmisión Sexual (ETS) son infecciones que se trasmiten de una persona a otra por medio del coito o acto sexual, el contagio se puede trasmitir de forma oral, vaginal o anal, sin embargo, hay ETS que se trasmiten de otras formas como: el uso de jeringas contaminadas, contacto físico intimo (piel con piel), fluidos sexuales, por contacto con la sangre u otras secreciones de una persona infectada y embarazos (la madre es portadora y durante el parto o lactancia se lo trasmite al hijo).  </p>
+                </center> 
+            </div> 
 
+            <div id="slide10" class="row">
+                <img src="img/Component 10.png" width="100%">
+                
+            </div>
+            <div id="slide11" class="row">
+                <img src="img/Component 11.png" width="100%">
+            </div>
+            <div id="slide12" class="row">
+                <img src="img/Component 12.png" width="94%">
+            </div>
+            <div id="textoets" class="row">
+                <h2>CLAMIDIA</h2>
+                <p>Es causada por una bacteria, en las mujeres infecta el cuello del útero, el recto o la garganta. Mientras que en los hombres la clamidia puede afectar la uretra (el interior del pene), el recto o la garganta. La clamidia por lo general no presenta síntomas lo cual hace que su contagio se propague más rápido, sin embargo, semanas después pueden aparecer ciertos síntomas en las mujeres como: Flujo vaginal anormal, que puede tener un fuerte olor, sensación de ardor al orinar, dolor durante las relaciones sexuales. En los hombres los síntomas son: Secreción del pene, sensación de ardor al orinar, ardor o picazón alrededor de la abertura del pene, dolor e inflamación en uno o ambos testículos, aunque esto es menos común.</p>
+            </div>
+            <div id="textoets2">
+                <h2>GONORREA</h2>
+                <p>Es una bacteria que se obtiene por el contacto sexual a través de ojos, boca, uretra, vagina, ano, pene o garganta, en las mujeres puede afectar el aparato reproductor. Al igual que la clamidia en muchas personas no presenta síntomas o estos son muy leves y se pueden confundir con una infección sencilla, en las mujeres los síntomas son: Dolor abdominal, flujo vaginal amarillento, sangrado entre periodos menstruales, dolor al tener relaciones sexuales y al orinar, necesidad de orinar más frecuentemente, vómito, hinchazón o sensibilidad en la vulva, fiebre, irregularidades en la menstruación. En los hombres los síntomas son: secreción parecida al pus en el pene, dolor o sensación de ardor al orinar, necesidad de orinar más frecuentemente.</p>
+            </div>
+            <div id="textoets3">
+                <h2>VIRUS DEL PAPILOMA</h2>
+                <p>Existen muchos tipos de este virus que causa verrugas en el cuerpo, donde 40 de ellos afectan los órganos sexuales, existen dos categorías para el papiloma humano de trasmisión sexual: bajo riesgo que causa verrugas en el ano, la vagina, el pene, la boca y los de altos riesgos que en muchos casos no presentan verrugas y pueden evolucionar hasta causar cáncer.</p>
+            </div>
+            <div id="textoets4">
+                <h2>SÍFILIS</h2>
+                <p>Esta ETS se divide en 4 fases: primaria, secundaria, latente y avanzada, esta enfermedad es un poco difícil de detectar a simple vista, puesto que presenta síntomas de otras enfermedades, en su etapa primaria aparecen llagas indoloras que duran entre 3 a 6 semanas, en la etapa secundaria aparecen erupciones en la planta de la mano y los pies, otros síntomas son: fiebre, inflamación de las glándulas linfáticas, dolor de garganta, pérdida parcial del cabello, dolores de cabeza, pérdida de peso, dolor muscular y fatiga. La etapa latente y avanzada desaparecen los síntomas anteriores y surgen síntomas como dificultad para coordinar los movimientos musculares, parálisis (no poder mover ciertas partes del cuerpo), entumecimiento, ceguera y demencia, esta etapa se dan entre 10 a 30 años luego de la infección y puede causar la muerte.</p>
+            </div>
         </div>
-        <div id="textoenfermedades"class="row">
-            <center>
-                <h1>¿Qué son las enfermedades de trasmisión sexual?</h1>
-                <br>
-                <p>Las enfermedades de Trasmisión Sexual (ETS) son infecciones que se trasmiten de una persona a otra por medio del coito o acto sexual, el contagio se puede trasmitir de forma oral, vaginal o anal, sin embargo, hay ETS que se trasmiten de otras formas como: el uso de jeringas contaminadas, contacto físico intimo (piel con piel), fluidos sexuales, por contacto con la sangre u otras secreciones de una persona infectada y embarazos (la madre es portadora y durante el parto o lactancia se lo trasmite al hijo).  </p>
-            </center> 
-        </div> 
-
-        <div id="slide10" class="row">
-            <img src="img/Component 10.png" width="100%">
-            
-        </div>
-        <div id="slide11" class="row">
-            <img src="img/Component 11.png" width="100%">
-        </div>
-        <div id="slide12" class="row">
-            <img src="img/Component 12.png" width="94%">
-        </div>
-        <div id="textoets" class="row">
-            <h2>CLAMIDIA</h2>
-            <p>Es causada por una bacteria, en las mujeres infecta el cuello del útero, el recto o la garganta. Mientras que en los hombres la clamidia puede afectar la uretra (el interior del pene), el recto o la garganta. La clamidia por lo general no presenta síntomas lo cual hace que su contagio se propague más rápido, sin embargo, semanas después pueden aparecer ciertos síntomas en las mujeres como: Flujo vaginal anormal, que puede tener un fuerte olor, sensación de ardor al orinar, dolor durante las relaciones sexuales. En los hombres los síntomas son: Secreción del pene, sensación de ardor al orinar, ardor o picazón alrededor de la abertura del pene, dolor e inflamación en uno o ambos testículos, aunque esto es menos común.</p>
-        </div>
-        <div id="textoets2">
-            <h2>GONORREA</h2>
-            <p>Es una bacteria que se obtiene por el contacto sexual a través de ojos, boca, uretra, vagina, ano, pene o garganta, en las mujeres puede afectar el aparato reproductor. Al igual que la clamidia en muchas personas no presenta síntomas o estos son muy leves y se pueden confundir con una infección sencilla, en las mujeres los síntomas son: Dolor abdominal, flujo vaginal amarillento, sangrado entre periodos menstruales, dolor al tener relaciones sexuales y al orinar, necesidad de orinar más frecuentemente, vómito, hinchazón o sensibilidad en la vulva, fiebre, irregularidades en la menstruación. En los hombres los síntomas son: secreción parecida al pus en el pene, dolor o sensación de ardor al orinar, necesidad de orinar más frecuentemente.</p>
-        </div>
-        <div id="textoets3">
-            <h2>VIRUS DEL PAPILOMA</h2>
-            <p>Existen muchos tipos de este virus que causa verrugas en el cuerpo, donde 40 de ellos afectan los órganos sexuales, existen dos categorías para el papiloma humano de trasmisión sexual: bajo riesgo que causa verrugas en el ano, la vagina, el pene, la boca y los de altos riesgos que en muchos casos no presentan verrugas y pueden evolucionar hasta causar cáncer.</p>
-        </div>
-        <div id="textoets4">
-            <h2>SÍFILIS</h2>
-            <p>Esta ETS se divide en 4 fases: primaria, secundaria, latente y avanzada, esta enfermedad es un poco difícil de detectar a simple vista, puesto que presenta síntomas de otras enfermedades, en su etapa primaria aparecen llagas indoloras que duran entre 3 a 6 semanas, en la etapa secundaria aparecen erupciones en la planta de la mano y los pies, otros síntomas son: fiebre, inflamación de las glándulas linfáticas, dolor de garganta, pérdida parcial del cabello, dolores de cabeza, pérdida de peso, dolor muscular y fatiga. La etapa latente y avanzada desaparecen los síntomas anteriores y surgen síntomas como dificultad para coordinar los movimientos musculares, parálisis (no poder mover ciertas partes del cuerpo), entumecimiento, ceguera y demencia, esta etapa se dan entre 10 a 30 años luego de la infección y puede causar la muerte.</p>
-        </div>
-    </div>
-</body>
+    </body>
+</html>

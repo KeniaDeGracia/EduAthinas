@@ -1,80 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script>
+        function initFreshChat() {
+        window.fcWidget.init({
+        token: "710ab6d6-3181-458e-95ef-ffd8f422b243",
+        host: "https://wchat.freshchat.com"
+        });
+        }
+        function initialize(i,t){
+        var e;
+        i.getElementById(t) ? initFreshChat() :
+        ((e=i.createElement("script")).id=t,
+        e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",
+        e.onload=initFreshChat,i.head.appendChild(e))
+        }
+        function initiateCall() {
+        initialize(document,"freshchat-js-sdk")
+        }
+        window.addEventListener ?
+        window.addEventListener("load",initiateCall,!1):
+        window.attachEvent("load",initiateCall,!1);
+        </script>
 <!--<script src="//code-eu1.jivosite.com/widget/YVJWc1rfpZ" async></script>-->
-<head>
-    <meta charset="UTF-8">
-     <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <head>
+        <meta charset="UTF-8">
+        <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>EduAthínas</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/icono.png">
-    <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo">
-</head>
-<body>
-    <div class="contenedor">
-        <!--=====================================
-        CABEZOTE   
-        ======================================-->
+        <title>EduAthínas</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/icono.png">
+        <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo">
+    </head>
+    <body>
+        <div class="contenedor">
+            <!--=====================================
+            CABEZOTE   
+            ======================================-->
 
-        <header class="row">
-           
-            <figure id="logotipo" class="col-lg-4 col-md-2 col-sm-1 col-xs-12">
-                <a href="index.html"><img src="img/logotipo.png" alt="Logo"></a>
-            </figure>
-            <div class="col-lg-1 col-md-3 col-sm-3 col-xs-12">
-                <br>
-            </div>
-            <nav class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
-                
-                <ul>
-                    <div class="topnav">
-                        <a href="index.html">Inicio</a>
-                        <a class="active" href="aprende.html">Aprende</a>
-                        <a href="recursos.html">Recursos</a>
-                        <a href="atencion.html">Obtener Atención</a>
-                        <input type="text" placeholder="Search..">
-                    </div>
-                </ul>
-    
-            </nav>
+            <header class="row">
             
-        </header>
-        <!--=====================================
-            SECCION 1
-        ======================================-->
-        <div id="slide2" class="row">
-            <center><img src="img/Component 2.png" width="100%"></center>
-        </div>
-        <section>
-            <div id="slide3" class="row">
-                <center><img src="img/Component 3.png " width="95%"></center>
-            </div>
-            <div id="textoaprende">
-                <center>
-                    <h1>Métodos Anticonceptivos</h1>
+                <figure id="logotipo" class="col-lg-4 col-md-2 col-sm-1 col-xs-12">
+                    <a href="index.html"><img src="img/logotipo.png" alt="Logo"></a>
+                </figure>
+                <div class="col-lg-1 col-md-3 col-sm-3 col-xs-12">
                     <br>
-                    <p>Son medicamentos o dispositivos utilizados para prevenir embarazos e infecciones de trasmisión sexual.</p>
-                </center> 
-            </div> 
-            <div id="textoaprende2">
-                <center>
-                    <h1>Enfermedades de transmisión sexual</h1>
-                    <br>
-                    <p>Son infecciones que se trasmiten a través del contacto sexual o íntimo, puede ser oral, vaginal o anal.</p>
-                  </center> 
+                </div>
+                <nav class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
+                    
+                    <ul>
+                        <div class="topnav">
+                            <a href="index.html">Inicio</a>
+                            <a class="active" href="aprende.html">Aprende</a>
+                            <a href="recursos.html">Recursos</a>
+                            <a href="atencion.html">Obtener Atención</a>
+                            <input type="text" placeholder="Search..">
+                        </div>
+                    </ul>
+        
+                </nav>
+                
+            </header>
+            <!--=====================================
+                SECCION 1
+            ======================================-->
+            <div id="slide2" class="row">
+                <center><img src="img/Component 2.png" width="100%"></center>
             </div>
-        </section>
-        <div id="vermas2" class ="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-            <a href="metodos.html">Ver Más</a>
+            <section>
+                <div id="slide3" class="row">
+                    <center><img src="img/Component 3.png " width="95%"></center>
+                </div>
+                <div id="textoaprende">
+                    <center>
+                        <h1>Métodos Anticonceptivos</h1>
+                        <br>
+                        <p>Son medicamentos o dispositivos utilizados para prevenir embarazos e infecciones de trasmisión sexual.</p>
+                    </center> 
+                </div> 
+                <div id="textoaprende2">
+                    <center>
+                        <h1>Enfermedades de transmisión sexual</h1>
+                        <br>
+                        <p>Son infecciones que se trasmiten a través del contacto sexual o íntimo, puede ser oral, vaginal o anal.</p>
+                    </center> 
+                </div>
+            </section>
+            <div id="vermas2" class ="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                <a href="metodos.html">Ver Más</a>
+            </div>
+            <div id="vermas3" class ="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                <a href="enfermedades.html">Ver Más</a>
+            </div>
+    
         </div>
-        <div id="vermas3" class ="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-            <a href="enfermedades.html">Ver Más</a>
-        </div>
- 
-    </div>
 
-</body>
+    </body>
 </html>
