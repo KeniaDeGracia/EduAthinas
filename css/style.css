@@ -35,7 +35,15 @@ header #logotipo{
 body {
 	font-family: "Boogaloo", sans-serif;
 }
-
+header #btnMovil span{
+	width:40px;
+	height:40px;
+	text-align: center;
+	padding:10px 0;
+	margin:10px;
+	background:silver;
+	cursor: pointer;
+}
 /*=============================================
 BARRA DEL NAVEGADOR
 =============================================*/
@@ -92,8 +100,8 @@ BARRA DEL NAVEGADOR
 	  display: block;
 	  text-align: left;
 	  width: 100%;
-	  margin: 0;
-	  padding: 14px;
+	  margin: 0%;
+	  padding: 18px;
 	}
 	.topnav input[type=text] {
 	  border: 1px solid #ccc;
@@ -236,13 +244,19 @@ IMAGENES
 #f{
 	position: absolute;
 	top: 1420px;
-	left:40%;
+	left:31%;
 	z-index: 5;
 }
 #i{
 	position: absolute;
 	top: 1420px;
-	left:72%;
+	left:52%;
+	z-index: 5;
+}
+#t{
+	position: absolute;
+	top: 1420px;
+	left:73%;
 	z-index: 5;
 }
 #correo{
@@ -260,12 +274,12 @@ IMAGENES
 /*=============================================
 Ver mas
 =============================================*/
-#vermas2{
+#vermas2 a{
 	position:absolute;
 	top:215%;
 	left: 19%;
 
-	padding: 5px;
+	padding-top: 10px;
 
 	width:11%;
 	height: 9%;
@@ -273,20 +287,18 @@ Ver mas
 	background:#FFAF36;
 	border-radius:10px;
 	text-align: center;
-	line-height: 50px;
 	font-size: 30px;
 	color:#000;
 	cursor:pointer;
-	border: none;
 	font-weight: bold;
 	font-family: 'Boogaloo', sans-serif;
 }
-#vermas3{
+#vermas3 a{
 	position:absolute;
 	top:215%;
 	left: 70.5%;
 
-	padding: 5px;
+	padding-top: 10px;
 
 	width:11%;
 	height: 9%;
@@ -294,7 +306,6 @@ Ver mas
 	background:#FF7A00;
 	border-radius:10px;
 	text-align: center;
-	line-height: 50px;
 	font-size: 30px;
 	color:black;
 	cursor:pointer;
@@ -305,13 +316,12 @@ Ver mas
 	position:absolute;
 	top: 410%;
 	left: 45%;
-	padding: 5px;
+	padding-top: 10px;
 	width:11%;
 	height: 9%;
 	background:black;
 	border-radius:10px;
 	text-align: center;
-	line-height: 50px;
 	font-size: 30px;
 	color:white;
 	cursor:pointer;
@@ -540,7 +550,7 @@ FORMULARIO
 
 
 /*=============================================
-PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc
+PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc 1200 x 640
 =============================================*/
 
 @media(min-width:1200px){
@@ -567,13 +577,11 @@ PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc
 	header #logotipo img{
 		margin:5% 5px;
 	}
-
-
-
 }
 
 /*=============================================
 PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 1024px
+1024 x 640
 =============================================*/
 
 @media(max-width:1199px) and (min-width:992px){
@@ -591,10 +599,22 @@ PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 10
 	.col-md-2{width: 16.66666667%;}
 	.col-md-1{width: 8.33333333%;}
 	.col-md-0 {display:none;}
+
+	header #logotipo img{
+		margin:6%;
+	}
+	.topnav {
+		margin: 5px;
+	}
+	#textoinicio{
+		top: 35%;
+		width: 35%;
+	}
 }
 
 /*=============================================
 PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
+960 x 540
 =============================================*/
 
 @media(max-width:991px) and (min-width:768px){
@@ -617,6 +637,7 @@ PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
 
 /*=============================================
 PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o vertical 320px
+320x569
 =============================================*/
 
 @media(max-width:767px){
@@ -634,6 +655,162 @@ PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o ve
 	.col-xs-2{width: 16.66666667%;}
 	.col-xs-1{width: 8.33333333%;}
 	.col-xs-0 {display:none;}
+	/*=============================================
+	INICIO
+	=============================================*/
+	header #logotipo{
+		padding:20px;
+	}
+	#slide{
+		top: 20%;
+		width:105%;
+	}
+	#textoinicio{
+		top:35%;
+		width:35%;
+		font-size: 10px;
+		z-index:-1;
+	}
+	.topnav{
+		margin: -30px 0px;
+	}
+	/*=============================================
+	APRENDE
+	=============================================*/
+	#slide3{
+		top: 42%;
+	}
+	#textoaprende{
+		top:52%;
+		left:12%;
+		font-size: 8px;
+		z-index:-1;
+	}
+	#textoaprende2{
+		top:52%;
+		left:63%;
+		font-size: 8px;
+		z-index:-1;
+	}
+	#vermas2 a{
+		top:68%;
+		font-size: 8px;
+		height:20px;
+		width: 40px;
+		z-index:-1;
+		padding-top: none;
+		padding: 5px;
+	}
+	#vermas3 a{
+		top:68%;
+		font-size: 8px;
+		height:20px;
+		width: 40px;
+		z-index:-1;
+		padding-top: none;
+		padding: 5px;
+	}
+	/*=============================================
+	METODOS
+	=============================================*/
+	#slide4{
+		z-index:-1;
+		top: 25%;
+	}
+	#slide5{
+		z-index:-1;
+		top: 50%;
+	}
+	#textometodos{
+		top:51.5%;
+		width:75%;
+		font-size: 10px;
+		font-weight: none;
+		z-index:-1;
+	}
+	#textometodos2{
+		top:63%;
+		font-size: 10px;
+		z-index:-1;
+	}
+	#slide6{
+		top:100%;
+	}
+	#slide7{
+		top:150%;
+	}
+	#vermas4 a{
+		top:140%;
+		font-size: 10px;
+		height:30px;
+		width: 50px;
+		padding: 5px;
+		padding-top: 8px;
+		left: 42.5%;
+	}
+	/*=============================================
+	ENFERMEDADES
+	=============================================*/
+	#slide8{
+		top:25%;
+		z-index:-1;
+	}
+	#slide9{
+		top:53%;
+		z-index:-1;
+	}
+	#textoenfermedades{
+		top:63%;
+		font-size: 10px
+	}
+	#slide10{
+		top:85%;
+		width: 80%;
+		margin: 10%;
+	}
+	#slide11{
+		top:120%;
+	}
+	#slide12{
+		top:150%;
+	}
+	#textoets{
+		top:150%;
+		left:35%;
+		width: 63%;
+		font-size: 6px;
+		color: white;
+	}
+	#textoets2{
+		top:164%;
+		left:25.5%;
+		width: 63%;
+	
+		font-size: 6px;
+		color:white;
+	}
+	#textoets3{
+		top:181%;
+		left:35%;
+		width: 63%;
+		font-size: 6px;
+		color: white;
+	}
+	#textoets4{
+		top:193%;
+		left:25.5%;
+		width: 63%;
+	
+		font-size: 6px;
+		color:white;
+	}
+
+	/*=============================================
+	RECURSOS
+	=============================================*/
+	/*=============================================
+	ATENCION
+	=============================================*/
 
 }
 
