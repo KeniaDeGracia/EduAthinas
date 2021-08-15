@@ -152,10 +152,45 @@ body {
 	background:#FF7A00;
 	border-radius:10px;
 	text-align: center;
-	line-height: 36px;
 	font-size: 25px;
 	color:rgb(0, 0, 0);
 	cursor:pointer;
 	border: 3px solid rgb(214, 214, 214);
 	font-weight: bold;
+}
+/*=============================================
+PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o vertical 320px
+320x569
+=============================================*/
+
+@media(max-width:767px){
+
+	.col-xs-12{width:100%;}
+	.col-xs-11{width:91.66666667%;}
+	.col-xs-10{width:83.33333333%;}
+	.col-xs-9{width:75%;}
+	.col-xs-8{width:66.66666667%;}
+	.col-xs-7{width:58.33333333%;}
+	.col-xs-6{width:50%;}
+	.col-xs-5{width:41.66666667%;}
+	.col-xs-4{width: 33.33333333%;}
+	.col-xs-3{width: 25%;}
+	.col-xs-2{width: 16.66666667%;}
+	.col-xs-1{width: 8.33333333%;}
+	.col-xs-0 {display:none;} 
+
+  .container .row .details{
+    font-size: 10px;
+  }
+  .container .row .details h2{
+    font-size: 8px;
+  }
+  #regresar{
+    top: auto;
+    left: 220px;
+
+    width:auto;
+    height: 30px;
+    font-size: 12px;
+  }
 }
